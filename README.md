@@ -27,7 +27,7 @@ Então se faz necessário:
 
 Então, esses são passos evolutivos de performance que realizamos no dia a dia.
 
-Encontramos gargalos e ficamos engrachando a máquina para rodar o mais liso e rápido possível.
+Encontramos gargalos e ficamos engraxando a máquina para rodar o mais liso e rápido possível.
 
 ## Operação
 
@@ -74,7 +74,7 @@ serviço ou infra dos servidores.
 
 - poliglota (sem medo de linguagens) - manjar de Ruby e GO é um plus.
 - ferramentas: Redis, MongoDB, Postgresql, ElasticSearch, Background jobs (Sidekiq, Resque)
-- infrastructure/platforms: heroku, circleci, amazon, NewRelic, Librato
+- infrastructure/platforms: Heroku, Circleci, AWS, NewRelic, Librato
 
 # Ok! vamos ao desafio :rocket:
 
@@ -135,7 +135,7 @@ Tem algumas tarefas utilitárias para facilitar o benchmark em [./lib/tasks/gene
 
 ```
 rake gen:leads[size]   # rake gen:leads[100] to create 100 random leads
-rake gen:csv[size]     # rake gen:csv[1000] exports 1000 random leads form database to a csv
+rake gen:csv[size]     # rake gen:csv[1000] exports 1000 random leads from database to csv
 ```
 
 A tarefa `rake gen:leads` serve para subir uns leads de exemplo. Depois você
@@ -211,7 +211,7 @@ $ rake benchmark:import[size] # rake benchmark:import[1000] to benchmark N leads
 
 Bom. Esse é o começo de tudo. Agora é com você!
 
-Na minha máquina (@jonatas) rodou em `238 segundos` com `10 mil leads`. Macbook 2011 com HD SSD.
+Na minha máquina (@andrehjr) rodou em `238 segundos` com `10 mil leads`. Macbook 2011 com HD SSD.
 
 A partir deste tempo inicial pode ser sua base para implementar melhorias e tentar novamente.
 
@@ -219,5 +219,5 @@ Experimente com arquivos de diversos tamanhos. Faça seus experimentos e observa
 
 Aguardamos seu Pull Request com o resumo da jornada!
 
-Qualquer dúvida só mencionar o @jonatas ou me enviar um email em `jonatas.paganini@resultadosdigitais.com.br`.
+Qualquer dúvida só mencionar o @andrehjr ou me enviar um email em `andre.junior@resultadosdigitais.com.br`.
 
